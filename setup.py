@@ -4,16 +4,16 @@ except ImportError:
 	from distutils.core import setup
 
 config = {
-	'description': 'Automatically Fill All Form Fields',
-	'author': 'Sanchit',
-	'url': 'bin\\index.py',
+	'description': 'Project X',
+	'author': 'Sanchit Raina',
+	'url': 'URL to get it at.',
 	'download_url': 'Where to download it.',
 	'author_email': 'rainasanchit01@gmail.com',
 	'version': '0.1',
 	'install_requires': ['nose'],
-	'packages': ['virtualenv'],
+	'packages': ['projectx'],
 	'scripts': [],
-	'name': 'autoformfiller'
+	'name': 'projectx'
 }
 
 setup(**config)

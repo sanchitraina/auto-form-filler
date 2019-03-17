@@ -1,0 +1,162 @@
+*{
+	font-size: small;
+}
+/*Body Section*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: rgba(0, 200, 255, 0.2);
+	text-align: left;
+}
+
+a {
+	font-family: sans-serif;
+	font-style: unset;
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.checkbox {
+	text-align: left;
+}
+
+/*Header Section*/
+
+
+
+/*Forgot Password Section*/
+
+.forgotpw {
+	text-align: center;
+	position: fixed;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+}
+
+/*Login Form Section*/
+
+.login {
+	width: 300px;
+	padding: 40px 5px; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: white;
+	border: 1px solid rgba(0, 200, 255, 0.7);
+	border-radius: 5px;
+}
+
+.login h2{
+	font-size: 40px;
+	color: blue;
+	margin-top: 0;
+}
+
+.login input[type="email"], .login input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: left;
+	border-bottom: 1.5px solid blue;
+	padding: 8px;
+	width: 200px;
+	outline: none;
+	color: black;
+	transition: 0.25s;
+}
+
+.login input[type="email"]:focus, .login input[type="password"]:focus{
+	width: 210px; 
+}
+
+.login input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: auto;
+	text-align: center;
+	border: 2px solid blue;
+	padding: 8px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;	
+}
+
+.login input[type="submit"]:hover{
+	background-color: blue;
+	color: white;
+}
+
+/*Signup Form Section*/
+
+.signup {
+	width: 300px;
+	padding: 40px 5px; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: white;
+	border: 1px solid rgba(0, 200, 255, 0.7);
+	border-radius: 5px;
+}
+
+.signup h2{
+	font-size: 40px;
+	color: blue;
+	margin-top: 0;
+}
+
+.signup input[type="email"], .signup input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: left;
+	border-bottom: 1.5px solid blue;
+	padding: 8px;
+	width: 200px;
+	outline: none;
+	color: black;
+	transition: 0.25s;
+}
+
+.signup input[type="email"]:focus, .signup input[type="password"]:focus{
+	width: 210px; 
+}
+
+.signup input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: auto;
+	text-align: center;
+	border: 2px solid blue;
+	padding: 8px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;	
+}
+
+.signup input[type="submit"]:hover{
+	background-color: blue;
+	color: white;
+}
+
+.signup p {
+	text-align: center;
+}
